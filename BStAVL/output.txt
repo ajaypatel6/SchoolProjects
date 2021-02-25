@@ -1,0 +1,24 @@
+> run AVL
+The AVL tree with the input from the assignment 3 webpage
+
+AVL As Assignment BST Boolean C D Delete Each Implement In InOrder Insert IsAVL Key Load N Objective Print Rescan SOT String String  The Thus To Your a above add an and appropriate are as be between complaint count d data deletion element elements event ever every field following from has help if implement implemented inclusive increment input insertion insure integer is isAVL letter like method n not number occurrences of on operations or preceding print recursively remove represent represents result return run should starts supplied support that the this thus to tree variable well where which will with write you 
+
+Is this an AVL? true
+
+Counting the elements that start with e, and decrementing them as we find them
+element : 4
+element : 3
+element : 2
+element : 1
+elements : 1
+event : 1
+ever : 1
+every : 1
+null
+
+The AVL tree with the every element that begins with 'e' removed
+
+AVL As Assignment BST Boolean C D Delete Each Implement In InOrder Insert IsAVL Key Load N Objective Print Rescan SOT String String  The Thus To Your a above add an and appropriate are as be between complaint count d data deletion field following from has help if implement implemented inclusive increment input insertion insure integer is isAVL letter like method n not number occurrences of on operations or preceding print recursively remove represent represents result return run should starts supplied support that the this thus to tree variable well where which will with write you 
+
+Is this an AVL? true
+> 
