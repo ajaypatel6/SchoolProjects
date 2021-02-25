@@ -1,0 +1,10 @@
+To run
+compile the filecopy_c
+and run with ./a.out (file1) (file2) 
+file1 is a fil you already have
+file 2 is a file that will be created if not already there and file1 contents is in it
+
+Screenshots attached are showing the two files being copied, they are also attached.
+
+There is a problem where if you manipulate the file1 after copying to file 2 manually in a text editor it may not work. 
+Basically just working to copy a file to another filename. 
