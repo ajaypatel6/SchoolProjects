@@ -1,0 +1,10 @@
+
+
+Latest java, should run on netbeans or eclipse or any good1 
+
+To run this, run the chatserver, then chatclient and hit 1
+
+Allows multiple new clients, chatting in a chatroom and direct messaging
+
+UML attached..
+
