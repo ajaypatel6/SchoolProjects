@@ -1,0 +1,72 @@
+<!-- Ajay Patel / 5660055 / ap14jl / https://www.cosc.brocku.ca/~ap14jl/A1/index.html -->
+
+img {
+	width: 150px;
+    margin: 0 0 10px 10px;
+}
+
+p {
+	margin: 4pt 12pt;
+}
+
+p2 { 	
+	margin: 4pt 12pt;
+	color : #7F99B1;
+}
+
+h1{
+	margin: 10pt 10pt;
+	font-family: "Vivaldi", "Comic Sans MS", cursive, sans-serif;
+	color : #7F99B1;
+}
+
+h2 {
+	color:#0E2F44 ;
+	font-family: "Vivaldi", "Comic Sans MS", cursive, sans-serif;
+	background-color: #D1DCFF;
+	margin: 10pt 150pt;
+}
+h3 {
+	color: black;
+	margin : 10pt 10pt;
+	background-color:#98A3AC;
+}
+
+a {
+	border: 1px solid blue;
+	background-color: #D1DCFF;
+}
+
+
+
+@font-face {
+font-family: 'Everything';
+src: url('Everything.otf');
+}
+
+#custom  { font-family: Everything; 
+
+  }
+
+body { background-color: #B8CECD; }
+footer { position: middle; bottom: 0pt; left: 0pt; background-color: #D1DCFF; }
+header { background-color: #7F99B1; }
+
+header li { display: inline; }
+li>a { color: inherit; text-decoration: blue; }
+
+.thumb {
+display: inline-block;
+color: black
+}
+
+.thumb:hover{ width: 60px;height:15px;background-color:#72899F; } 
+
+.iteme{
+	display: inline-block;
+color: black
+	background-color: #7F99B1;
+}
+.iteme:hover{
+	color:white;
+}
