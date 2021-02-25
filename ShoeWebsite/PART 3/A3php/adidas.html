@@ -1,0 +1,47 @@
+<!doctype html>
+<!-- Ajay Patel / 5660055 / ap14jl / https://www.cosc.brocku.ca/~ap14jl/A1/index.html -->
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>The Shoe Store</title>
+	<link rel="stylesheet" type="text/css" href="theme.css"/>
+	<img src="ShoeLogo.jpg" alt="ShoeLogo" style="width:100px;height:50px;"/><!--TOP PICS HERE-->
+<script>
+ function addAdidas(){
+	if (localStorage.getItem("Adidas") == null){
+		localStorage.setItem("Adidas",0);
+	} 
+	adidas = parseInt(localStorage.getItem('Adidas'));
+	adidas = 1;
+	localStorage.setItem("Adidas",adidas);
+	alert("1 Added to wishlist");
+	alert(adidas + " Adidas shoes in wishlist");
+ }
+ 
+ function removeAdidas(){
+ 	adidas = parseInt(localStorage.getItem('Adidas'));
+ 	adidas = adidas - 1;
+	localStorage.setItem("Adidas",adidas);
+	alert("1 Adidas removed from wishlist");
+	alert(adidas + " Adidas shoes in wishlist");
+ }
+</script>
+</head>
+<body>
+<header>
+
+<a href = "PO.php">Back</a>
+</header>
+	<h2> Adidas </h2>
+	<center><div id = "Adidas" class="thumb" onclick="addAdidas();"><strong>Add(+1)</strong></div></center>
+	<center><div id = "Adidas" class="thumb" onclick="removeAdidas();">Remove(-1)</div></center>
+	<img src="as.jpg" alt="ShoeLogo" style="width:300px;height:200px;"/>
+	<!--https://stockx-360.imgix.net/adidas-Yeezy-Boost-350-V2-Black/Images/adidas-Yeezy-Boost-350-V2-Black/Lv2/img01.jpg?auto=format,compress&w=559&q=90&dpr=2&updated_at=1559748037-->
+	<p id = "custom"><strong> The finest selection of adidas <strong></p>
+</body>
+
+<footer>
+	<small>Ajays Shoe Store</small><br/>
+</footer> 
+</html>

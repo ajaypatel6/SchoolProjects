@@ -1,0 +1,48 @@
+<!doctype html>
+<!-- Ajay Patel / 5660055 / ap14jl / https://www.cosc.brocku.ca/~ap14jl/A1/index.html -->
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>The Shoe Store</title>
+	<link rel="stylesheet" type="text/css" href="theme.css"/>
+	<img src="ShoeLogo.jpg" alt="ShoeLogo" style="width:100px;height:50px;"/><!--TOP PICS HERE-->
+<script>
+  function addNike(){
+	if (localStorage.getItem("Nike") == null){
+		localStorage.setItem("Nike",0);
+	} 
+	nike = parseInt(localStorage.getItem('Nike'));
+	nike = 1;
+	localStorage.setItem("Nike",nike);
+	alert("1 Nike added to wishlist");
+	alert(nike + " Nike shoes in wishlist");
+ }
+ 
+ function removeNike(){
+ 	nike = parseInt(localStorage.getItem('Nike'));
+ 	nike = nike - 1;
+	localStorage.setItem("Nike",nike);
+	alert("1 Nike removed from wishlist");
+	alert(nike + " Nike shoes in wishlist");;
+ }
+</script>
+  
+</head>
+<body>
+<header>
+
+<a href = "PO.php">Back</a>
+</header>
+	<h2> Nike </h2>
+	<center><div class="thumb" onclick="addNike();"><strong>Add(+1)</strong></div></center>
+	<center><div class="thumb" onclick="removeNike();">Remove(-1)</div></center>
+	<img src="ns.jpg" alt="ShoeLogo" style="width:300px;height:200px;"/>
+	<!--https://cdn.runrepeat.com/i/nike/28282/nike-air-yeezy-2-nrg-us-9-mens-black-black-solar-red-6bc5-380.jpg-->
+	<p id = "custom"><strong> The finest selection of nike <strong></p>
+</body>
+
+<footer>
+	<small>Ajays Shoe Store</small><br/>
+</footer> 
+</html>

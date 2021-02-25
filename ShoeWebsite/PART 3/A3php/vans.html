@@ -1,0 +1,49 @@
+<!doctype html>
+<!-- Ajay Patel / 5660055 / ap14jl / https://www.cosc.brocku.ca/~ap14jl/A1/index.html -->
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>The Shoe Store</title>
+	<link rel="stylesheet" type="text/css" href="theme.css"/>
+	<img src="ShoeLogo.jpg" alt="ShoeLogo" style="width:100px;height:50px;"/><!--TOP PICS HERE-->
+<script>
+ function addVans(){
+	if (localStorage.getItem("Vans") == null){
+		localStorage.setItem("Vans",0);
+	} 
+	vans = parseInt(localStorage.getItem('Vans'));
+	vans = 1;
+	localStorage.setItem("Vans",vans);
+	alert("1 vans added to wishlist");
+
+	alert(vans + " Vans shoes in wishlist");
+ }
+ 
+  function removeVans(){
+ 	vans = parseInt(localStorage.getItem('Vans'));
+ 	vans = vans - 1;
+	localStorage.setItem("Vans",vans);
+	alert("1 Vans removed from wishlist");
+	alert(vans + " Vans shoes in wishlist");
+ }
+</script>
+
+</head>
+<body>
+<header>
+
+<a href = "PO.php">Back</a>
+</header>
+	<h2> Vans </h2>
+	<left><div class="thumb" onclick="addVans();"><strong>Add(+1)</strong></div></left>
+	<left><div class="thumb" onclick="removeVans();">Remove(-1)</div></left>
+	<img src="vs.jpg" alt="ShoeLogo" style="width:300px;height:200px;"/>
+	<!--https://schuh.sirv.com/19/1973657270/1973657270-01-01.jpg?scale.option=fill&scale.width=1600&quality=60-->
+	<p id = "custom"><strong> The finest selection of vans <strong></p>
+</body>
+
+<footer>
+	<small>Ajays Shoe Store</small><br/>
+</footer> 
+</html>
